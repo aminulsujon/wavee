@@ -62,10 +62,7 @@ const Header = () => {
                 Products
               </Link>
               <Link href="/services" className="block md:inline-block mb-2 md:inline font-medium text-white bg-[#004da0] px-2 py-2 rounded-md hover:bg-[#004da0] transition">
-                Automation & Solutions
-              </Link>
-              <Link href="/services" className="block md:inline-block mb-2 md:inline font-medium text-white bg-[#004da0] px-2 py-2 rounded-md hover:bg-[#004da0] transition">
-                Repairing & Support
+                Services
               </Link>
               <Link href="/contact" className="block md:inline-block mb-2 md:inline font-medium text-white bg-[#004da0] px-2 py-2 rounded-md hover:bg-[#004da0] transition">
                 Contact

@@ -53,7 +53,7 @@ export default function Footer() {
             </p>
 
             {/* Social Links */}
-            <div className="flex justify-center sm:justify-start space-x-6">
+            <div className="md:flex justify-center sm:justify-start space-x-6 space-y-4">
               <a 
               href="https://www.facebook.com/wavelenze"
               target="_blank"

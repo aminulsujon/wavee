@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "title": "i950 cabinet servo inverter",
+      "link": "i950-cabinet-servo-inverter",
+      "image": "images/i950-cabinet-servo-inverter.webp",
+      "brand": "Lenze",
+      "featured": true,
+      "date": "2025-04-22"
+    },
+    {
+      "id": 5,
+      "title": "i510 cabinet frequency inverter",
+      "link": "i510-cabinet-frequency-inverter",
+      "image": "images/i510-cabinet-frequency-inverter.webp",
+      "brand": "Lenze",
+      "featured": true,
+      "date": "2025-04-22"
+    },
+    {
+      "id": 2,
+      "title": "8400 protec frequency inverter",
+      "link": "8400-protec-frequency-inverter",
+      "image": "images/8400-protec-frequency-inverter.webp",
+      "brand": "Lenze",
+      "featured": true,
+      "date": "2025-04-22"
+    },
+    {
+      "id": 6,
+      "title": "i550 protec frequency inverter",
+      "link": "i550-protec-frequency-inverter",
+      "image": "images/i550-protec-frequency-inverter.webp",
+      "brand": "Lenze",
+      "featured": false,
+      "date": "2025-04-22"
+    },
+    {
+      "id": 3,
+      "title": "8400 motec frequency inverter",
+      "link": "8400-motec-frequency-inverter",
+      "image": "images/8400-motec-frequency-inverter.webp",
+      "brand": "Lenze",
+      "featured": false,
+      "date": "2025-04-22"
+    },
+    {
+      "id": 4,
+      "title": "i550 motec frequency inverter",
+      "link": "i550-motec-frequency-inverter",
+      "image": "images/i550-motec-frequency-inverter.webp",
+      "brand": "Lenze",
+      "featured": true,
+      "date": "2025-04-22"
+    }
+  ]
+  

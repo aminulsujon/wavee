@@ -2,18 +2,22 @@ import React from 'react';
 
 const WaveServices = () => {
   return (
-    <section className="bg-[#004da0] py-16 text-white">
-      <div className="mb-12 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 py-4">
+    <section className="section">
+      <div className="mb-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold py-4">
           Wave Engineering Services
         </h2>
+        <div className="p-4">
+          <span>Automation & Solutions, </span>
+          <span>Repairing & Support</span>
+        </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 text-left text-white text-xl">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 text-left text-xl">
         
         {/* Repairing Service */}
         <div className="mb-10">
-          <h3 className="text-2xl md:text-4xl font-bold text-white">Repairing Service</h3>
+          <h3 className="text-2xl md:text-4xl font-bold">Repairing Service</h3>
           <p className="py-2">
             Inverter Repairing Service Center in Wave Engineering Bangladesh. We repair all types of Inverters, AC/DC Drives, HMIs, PLCs, Servo Drives, and Electronic Cards.
           </p>
@@ -27,12 +31,12 @@ const WaveServices = () => {
 
         {/* Local Product Repair */}
         <div className="mb-10">
-          <h3 className="text-2xl md:text-4xl font-bold text-white">Local Products Repair and Troubleshooting Service</h3>
+          <h3 className="text-2xl md:text-4xl font-bold">Local Products Repair and Troubleshooting Service</h3>
         </div>
 
         {/* Automation Service */}
         <div className="mb-10">
-          <h3 className="text-2xl md:text-4xl font-bold text-white">Automation Service</h3>
+          <h3 className="text-2xl md:text-4xl font-bold">Automation Service</h3>
           <ul className="list-disc list-inside ml-4">
             <li className="py-2 underline">For Electrical Drive & Automation Systems</li>
             <li className="py-2 underline">Industrial Automation Projects</li>

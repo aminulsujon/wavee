@@ -3,7 +3,7 @@ import HeroBox from './components/HeroBox';
 import FeaturesSection from './components/FeaturesSection';
 import FeaturedProducts from './components/FeaturedProducts';
 import WaveServices from './components/WaveServices';
-// import PartnerSlider from './components/PartnerSlider';
+import PartnerSlider from './components/PartnerSlider';
 import WelcomeSection from './components/WelcomeSection';
 import ContactSection from './components/ContactSection';
 
@@ -16,7 +16,7 @@ export default function Home() {
       <FeaturesSection />
       <FeaturedProducts />
       <WaveServices />
-      {/* <PartnerSlider /> */}
+      <PartnerSlider />
       <WelcomeSection />
       <ContactSection />
     </main>

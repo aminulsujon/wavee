@@ -38,8 +38,8 @@ export default function ContactSection() {
               <div>
                 <h4 className="text-md font-semibold text-gray-800">Contact Now</h4>
                 <p className="text-gray-600">
-                  Phone: +8801719073109, +8801880076385 <br />
-                  Email: info@waveengineeringbd.com, shohagiu01@gmail.com
+                  Phone: +8801719073109<br />
+                  Email: info@waveengineeringbd.com
                 </p>
               </div>
             </div>

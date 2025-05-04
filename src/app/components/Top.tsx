@@ -37,14 +37,13 @@ const Top = () => {
         {/* Contact Information */}
         <div className="flex flex-wrap items-center space-x-4 w-full sm:w-auto text-sm">
           <a href="tel:+8801719073109" className="hover:underline whitespace-nowrap">
-            <svg xmlns="http://www.w3.org/2000/svg" className="inline-block w-4 h-4 fill-white" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" className="inline-block w-4 h-4 fill-white mr-2" viewBox="0 0 24 24">
               <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.05-.24c1.12.37 2.33.57 3.54.57a1 1 0 011 1V20a1 1 0 01-1 1c-9.39 0-17-7.61-17-17a1 1 0 011-1h3.5a1 1 0 011 1c0 1.21.2 2.42.57 3.54a1 1 0 01-.25 1.05l-2.2 2.2z"/>
             </svg>
             +8801719073109
           </a>
-          <a href="tel:+8801880076385" className="hover:underline whitespace-nowrap">+8801880076385</a>
           <a href="mailto:info@waveengineering.com" className="hover:underline whitespace-nowrap">
-            <svg xmlns="http://www.w3.org/2000/svg" className="inline-block w-4 h-4 fill-white" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" className="inline-block w-4 h-4 fill-white mr-2" viewBox="0 0 24 24">
               <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8l8 5 8-5v10H4z"/>
             </svg>
             info@waveengineering.com
