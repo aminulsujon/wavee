@@ -2,18 +2,18 @@ import React from 'react';
 
 const WaveServices = () => {
   return (
-    <section className="section">
+    <section className="section text-gray-950 bg-white">
       <div className="mb-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold py-4">
           Wave Engineering Services
         </h2>
-        <div className="p-4">
+        <div className="p-4 pt-0">
           <span>Automation & Solutions, </span>
           <span>Repairing & Support</span>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 text-left text-xl">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 text-left text-xl">
         
         {/* Repairing Service */}
         <div className="mb-10">

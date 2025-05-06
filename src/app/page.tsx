@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
     <HeroBox />
-    <main className="space-y-10 mb-20">
+    <main className="space-y-4 bg-white text-[#004da0]">
       <FeaturesSection />
       <FeaturedProducts />
       <WaveServices />

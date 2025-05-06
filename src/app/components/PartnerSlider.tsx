@@ -26,7 +26,7 @@ export default function PartnerSlider() {
 
   return (
     <>
-    <h2 className="text-3xl md:text-4xl text-center bg-gray-100 font-bold py-4">
+    <h2 className="bg-gray-100 border-b text-3xl md:text-4xl text-center font-bold py-4">
       Our Brands
     </h2>
     <div className="overflow-hidden">

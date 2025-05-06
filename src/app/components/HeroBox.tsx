@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function ContactSection() {
   return (
-    <div className="py-4 pb-8 ml-auto">
+    <div className="py-4 pb-8 ml-auto bg-white text-gray-950">
       <div className="lg:w-2/3 mx-auto px-4">
 
         <div>
@@ -12,12 +12,12 @@ export default function ContactSection() {
             src="/images/Lenze-Germanu-Logo-official.webp"
             alt="Lenze Logo"
           />
-          <h1 className="text-gray-900 dark:text-white font-bold text-2xl md:text-4xl xl:text-5xl leading-tight">
-            <span className="text-[#004da0] dark:text-white">Lenze Products Bangladesh</span>
+          <h1 className="heading">
+            <span className="text-[#004da0]">Lenze Products Bangladesh</span>
           </h1>
         </div>
 
-        <p className="mt-6 text-xl md:text-2xl text-wave dark:text-white max-w-3xl">
+        <p className="mt-6 text-xl md:text-2xl max-w-3xl">
           We are Authorized System Integrator, Channel Partner & Support/Repair Provider of Lenze Products in Bangladesh.
         </p>
 
@@ -30,7 +30,7 @@ export default function ContactSection() {
           </a>
           <a
             href="/contact"
-            className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-[#004da0] before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
+            className="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-[#004da0] before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
           >
             <span className="relative text-lg font-semibold text-white">Contact</span>
           </a>

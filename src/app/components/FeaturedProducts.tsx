@@ -27,13 +27,13 @@ const FeaturedProducts = () => {
         {/* Navigation Buttons */}
         <button
           onClick={() => scrollSlider(-1)}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white dark:bg-[#004da0] border dark:border-gray-700 p-2 rounded-full shadow-md hover:bg-gray-100 dark:hover:bg-gray-700"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white border p-2 rounded-full shadow-md hover:bg-gray-100"
         >
           ◀
         </button>
         <button
           onClick={() => scrollSlider(1)}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white dark:bg-[#004da0] border dark:border-gray-700 p-2 rounded-full shadow-md hover:bg-gray-100 dark:hover:bg-gray-700"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white border p-2 rounded-full shadow-md hover:bg-gray-100"
         >
           ▶
         </button>
@@ -43,39 +43,35 @@ const FeaturedProducts = () => {
           {featuredProducts.map(product => (
             <div
               key={product.id}
-              className="flex-shrink-0 w-72 sm:w-80 group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-[#004da0] bg-opacity-50 shadow-2xl shadow-gray-600/10"
+              className="flex-shrink-0 sm:w-80 group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-600/10"
             >
               <div className="relative overflow-hidden rounded-xl">
-                
                   <img
                     src={product.image}
                     alt={product.title}
                     className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
                   />
-                
               </div>
               <div className="mt-6">
-                <h3 className="text-xl font-semibold text-primary dark:text-white">
-                  
+                <h3 className="text-xl font-semibold text-[#004da0]">
                     {product.title}
-                    <span className="block mt-2 text-sm text-gray-500 dark:text-gray-400">
+                    <span className="block mt-2 text-sm text-bold text-gray-900">
                       {product.brand}
                     </span>
-                 
                 </h3>
               </div>
             </div>
           ))}
         </div>
-        
-      <div className="text-center pt-2">
-        <a
-          href="/products"
-          className="block md:inline-block mb-2 md:inline font-medium text-white bg-[#004da0] px-2 py-2 rounded-md hover:bg-[#004da0] transition"
-        >
-          View All Products
-        </a>
-      </div>
+
+        <div className="text-center pt-2">
+          <a
+            href="/products"
+            className="block md:inline-block mb-2 md:inline font-medium text-white bg-[#004da0] px-2 py-2 rounded-md hover:bg-[#004da0] transition"
+          >
+            View All Products
+          </a>
+        </div>
       </div>
     </section>
   )

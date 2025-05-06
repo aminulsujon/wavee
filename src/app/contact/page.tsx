@@ -14,7 +14,7 @@ export default function Home() {
   const text = 'Contact'
   return (
     <>
-    <main className="space-y-10 mb-20">
+    <main className="space-y-4 mb-4">
       <Breadcrumb block={block} text={text} />
       <ContactSection />
     </main>

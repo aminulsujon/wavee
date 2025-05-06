@@ -3,19 +3,19 @@ import Image from 'next/image';
 
 export default function WelcomeSection() {
   return (
-    <section id="features" className="bg-[#004da0] py-12">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-sky-50 mb-12">
+    <section id="features" className="py-2 text-black">
+      <h2 className="text-3x border-t py-4 border-gray-400 md:text-4xl font-bold text-center">
         <img
-          src="/images/wave-engineering-logo-white.png"
+          src="/images/wave-engineering-logo.png"
           alt="Wave Engineering Logo"
           width={64}
           height={64}
           className="inline-block w-16 h-auto"
         />
-        <span className="ml-4 align-middle">WELCOME TO WAVE ENGINEERING</span>
+        <span className="ml-4 align-middle block mt-2">WELCOME TO WAVE ENGINEERING</span>
       </h2>
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 text-gray-300 text-xl leading-relaxed">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 text-xl leading-relaxed">
         <p>
           WAVE ENGINEERING is an Inverter, Industrial Machine, Industrial Machinery Parts, Automation Products & Automation Solution Company in Bangladesh.
         </p>

@@ -4,6 +4,7 @@ import React, { useState, useMemo } from 'react'
 
 // You can replace this with an import from JSON file
 import productsData from '../../../data/product.json'
+import Link from 'next/link'
 
 type Product = {
   id: number
@@ -35,11 +36,11 @@ const ProductPage = () => {
   }, [search, sortBy])
 
   return (
-    <section className="py-8 px-4 max-w-7xl mx-auto">
+    <section className="py-8 px-4 max-w-7xl mx-auto bg-white text-[#004da0]">
       {/* Header */}
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold">Products</h1>
-        <p className="mt-2 text-gray-500">
+        <p className="mt-2">
           Browse our automation and engineering products from Lenze
         </p>
       </div>
@@ -64,24 +65,31 @@ const ProductPage = () => {
       </div>
 
       {/* Product Grid */}
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="boxes">
         {filteredProducts.map((product: Product) => (
           <div
             key={product.id}
-            className="rounded-2xl overflow-hidden border border-gray-200 shadow hover:shadow-lg transition bg-white dark:bg-[#004da0] dark:border-gray-700"
+            className="flex-shrink-0 sm:w-80 group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-600/10"
           >
-            
-              <img
-                src={product.image}
-                alt={product.title}
-                className="w-full h-60 object-cover"
-              />
-              <div className="p-4">
-                <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{product.title}</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-300 mt-1">{product.brand}</p>
-                <p className="text-xs text-gray-400 mt-1">Date: {product.date}</p>
-              </div>
-            
+            <div className="relative overflow-hidden rounded-xl">
+              
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
+                />
+              
+            </div>
+            <div className="mt-6">
+              <h3 className="text-xl font-semibold">
+                
+                  {product.title}
+                  <span className="block mt-2 text-sm">
+                    {product.brand}
+                  </span>
+                
+              </h3>
+            </div>
           </div>
         ))}
       </div>
