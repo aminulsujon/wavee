@@ -10,7 +10,8 @@ export default function PartnerSlider() {
     '/images/2.webp',
     '/images/3.webp',
     '/images/4.webp',
-    // Add more logos as needed
+    '/images/5.webp',
+    '/images/6.webp',
   ];
 
   useEffect(() => {

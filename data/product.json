@@ -1,57 +1,82 @@
 [
-    {
-      "id": 1,
-      "title": "i950 cabinet servo inverter",
-      "link": "i950-cabinet-servo-inverter",
-      "image": "images/i950-cabinet-servo-inverter.webp",
-      "brand": "Lenze",
-      "featured": true,
-      "date": "2025-04-22"
-    },
-    {
-      "id": 5,
-      "title": "i510 cabinet frequency inverter",
-      "link": "i510-cabinet-frequency-inverter",
-      "image": "images/i510-cabinet-frequency-inverter.webp",
-      "brand": "Lenze",
-      "featured": true,
-      "date": "2025-04-22"
-    },
-    {
-      "id": 2,
-      "title": "8400 protec frequency inverter",
-      "link": "8400-protec-frequency-inverter",
-      "image": "images/8400-protec-frequency-inverter.webp",
-      "brand": "Lenze",
-      "featured": true,
-      "date": "2025-04-22"
-    },
-    {
-      "id": 6,
-      "title": "i550 protec frequency inverter",
-      "link": "i550-protec-frequency-inverter",
-      "image": "images/i550-protec-frequency-inverter.webp",
-      "brand": "Lenze",
-      "featured": true,
-      "date": "2025-04-22"
-    },
-    {
-      "id": 3,
-      "title": "8400 motec frequency inverter",
-      "link": "8400-motec-frequency-inverter",
-      "image": "images/8400-motec-frequency-inverter.webp",
-      "brand": "Lenze",
-      "featured": false,
-      "date": "2025-04-22"
-    },
-    {
-      "id": 4,
-      "title": "i550 motec frequency inverter",
-      "link": "i550-motec-frequency-inverter",
-      "image": "images/i550-motec-frequency-inverter.webp",
-      "brand": "Lenze",
-      "featured": true,
-      "date": "2025-04-22"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "i510 Cabinet Frequency Inverter",
+    "link": "i510-cabinet-frequency-inverter",
+    "image": "images/i510-cabinet-frequency-inverter.webp",
+    "brand": "Lenze",
+    "featured": true,
+    "date": "2025-04-22",
+    "details": "<p><strong>Highlights</strong></p><ul><li>Space saving design: 60 mm wide (up to 4 kW), 130 mm deep (up to 11 kW), with zero-clearance mounting</li><li>Innovative interaction (e.g. over WLAN) makes new record-breaking commissioning times and convenient diagnostics a reality</li><li>Special user-friendliness</li></ul>"
+  },
+  {
+    "id": 2,
+    "title": "i550 Motec Frequency Inverter",
+    "link": "i550-motec-frequency-inverter",
+    "image": "images/i550-motec-frequency-inverter.webp",
+    "brand": "Lenze",
+    "featured": true,
+    "date": "2025-04-22",
+    "details": "<p><strong>Highlights</strong></p><ul><li>Compact solution for decentralized drive technology, wall-mounted or motor-mounted</li><li>High IP66 protection class for universal use even in harsh environments</li><li>Fast mounting due to pluggable, standardized connections (plug &amp; play)</li><li>IO-Link master functionality for easy data exchange between IO-Link sensors and actuators</li><li>Regenerative feedback mode integrated for very high energy efficiency - no brake resistor required</li></ul>"
+  },
+  {
+    "id": 3,
+    "title": "9400 HighLine Servo Inverter",
+    "link": "9400-highline-servo-inverter",
+    "image": "images/9400-highline-servo-inverter.webp",
+    "brand": "Lenze",
+    "featured": true,
+    "date": "2025-04-22",
+    "details": "<div><h1>9400 HighLine Servo Inverter</h1><p>The 9400 HighLine servo inverter is suitable for precise, dynamic movements and delivers impressive results for demanding machine tasks and single-axis or multi-axis applications. The well-designed mounting concept enables easy installation and mounting of the devices.</p><p>The requirements of the Ecodesign Directive, Standard EN IEC 61800-9-2, are met.</p><div><h2>Highlights</h2><ul><li>Resolver input and universal multi-encoder input</li><li>Supports synchronous and asynchronous motors</li><li>Flexibly adaptable functionality through function block interconnection</li><li>Versatile and freely configurable technology functions, e.g. for table positioning, positioning controls, electronic gearboxes and cams</li><li>Scalable safety functions</li></ul></div><div><h2>Technical Data and Features</h2><div><h3>Technical Data</h3><p>Single Drive: 0.37 ... 240 kW</p><p>Multi Drive: 0.37 ... 30 kW</p></div><div><h3>Connections</h3><ul><li>3 AC 230 V (Single Drive)</li><li>3 AC 400 V (Single Drive)</li><li>3 AC 480 V (Single Drive)</li><li>Brake resistor (Single Drive)</li><li>Motor connection (Single Drive/Multi Drive)</li><li>9x digital input</li><li>4x digital output</li><li>2x analog input</li><li>2x analog output</li><li>Safe inputs for the connection of safety sensors</li><li>Safe outputs for safe feedback</li><li>Holding brake control</li><li>Resolver input for feedback (motor)</li><li>Multi-encoder input for feedback (motor) or as an additional displacement encoder system</li><li>Connection of safety-rated encoder systems</li></ul></div></div><div><h2>Communication</h2><ul><li>CANopen</li><li>DeviceNet</li><li>EtherCAT</li><li>Ethernet</li><li>EtherNet/IP</li><li>PROFIBUS</li><li>PROFINET</li><li>Safety bus FSoE</li><li>PROFIsafe safety bus on PROFINET</li></ul></div><div><h2>Operation</h2><p>Operation with safety PLC</p></div></div>"
+  },
+  {
+    "id": 4,
+    "title": "8400 Motec Frequency Inverter",
+    "link": "8400-motec-frequency-inverter",
+    "image": "images/8400-motec-frequency-inverter.webp",
+    "brand": "Lenze",
+    "featured": true,
+    "date": "2025-04-22",
+    "details": "<p><strong>Highlights</strong></p><ul><li>Easy commissioning with plug technology (plug and drive)</li><li>Compact design</li><li>High protection class IP65, with switch unit IP54</li><li>Integrated switches and potentiometers for quick adjustment of configuration as well as speed and ramp</li><li>Versions with or without repair switch for wall mounting</li></ul>"
+  },
+  {
+    "id": 5,
+    "title": "8400 Protec Frequency Inverter",
+    "link": "8400-protec-frequency-inverter",
+    "image": "images/8400-protec-frequency-inverter.webp",
+    "brand": "Lenze",
+    "featured": true,
+    "date": "2025-04-22",
+    "details": "<p><strong>Highlights</strong></p><ul><li>Easy commissioning with plug technology (plug and drive)</li><li>LED display and status LEDs</li><li>High protection class IP65</li></ul>"
+  },
+  {
+    "id": 6,
+    "title": "i700 Cabinet Servo Inverter",
+    "link": "i700-cabinet-servo-inverter",
+    "image": "images/i700-cabinet-servo-inverter.webp",
+    "brand": "Lenze",
+    "featured": true,
+    "date": "2025-04-22",
+    "details": "<div><h1>i700 Cabinet Servo Inverter</h1><p>The i700 cabinet servo inverter is suitable for dynamic motion control and multi-axis applications. The interconnected system of single or double axis devices, in combination with the appropriate supplier and our controllers, is the right choice for automation applications.</p><p>Our controllers, such as the <strong>c520</strong>, can be used to conveniently solve almost all control tasks for coordinated movement of multiple axes with high dynamics. Thus, modern and modular machine controls can be implemented based on our software modules.</p><p>The i950 cabinet servo inverter can be used as a power extension of the i700 cabinet servo inverter in the range from <strong>22 to 110 kW</strong>.</p><div><h2>Highlights</h2><ul><li>Integrated DC-bus connection</li><li>Small overall width from 50 mm for the double axis</li><li>Axis modules capable of multiple overloads for peak output currents between 5 and 64 A, double axes up to 32 A</li><li>Autotuning function for quick and easy controller adjustment</li><li>\"Safe Torque Off (STO)\" safety function</li></ul></div><div><h2>Technical Data and Features (Axis Modules)</h2><div><div><h3>Technical data</h3><p>Single axis: 0.75 ... 15 kW</p><p>Double axis: 0.75 ... 7.5 kW</p></div><div><h3>Connections</h3><ul><li>DC supply range: 260 ... 775 V</li><li>2x digital input</li><li>Holding brake control</li><li>Motor temperature monitoring</li><li>Resolver/multi-encoder input for feedback (motor)</li></ul></div></div></div><div><h2>Communication</h2><p>EtherCAT</p></div><div><h2>Technical Data and Features (Supply Modules)</h2><div><div><h3>Technical data</h3><p>Output voltage: DC</p><p>Rated DC-bus current: 30 A and 60 A</p></div><div><h3>Connections</h3><ul><li>3 AC 230 V</li><li>3 AC 400 V</li><li>3 AC 480 V</li><li>Brake resistor</li><li>3 x digital input (permanently assigned)</li><li>2 x digital output (permanently assigned)</li></ul></div></div></div></div>"
+  },
+  {
+    "id": 8,
+    "title": "i550 Protec Frequency Inverter",
+    "link": "i550-protec-frequency-inverter",
+    "image": "images/i550-protec-frequency-inverter.webp",
+    "brand": "Lenze",
+    "featured": false,
+    "date": "2025-04-22",
+    "details": "<p>The award-winning i550 protec frequency inverter uses the same tried-and-tested technology used in our control cabinet inverters. It only differs in terms of a higher degree of housing protection and an adapted design. If there is not enough space in the control cabinet or the inverter has to be mounted close to the motor in various machine modules, then this versatile and reliable device is the right solution. Thanks to the extension box, a repair and operating switch can be used.</p><p>The requirements of the Ecodesign Directive are met.</p><p>Application areas: Conveyor drives, traveling drives, winding drives, hoist drives, extruders, packaging machines, pumps, fans, ...</p><p>Highlights</p><ul><li>IP66 degree of protection (Indoor &amp; Outdoor NEMA 4X) with protection against high pressure water jets from any direction and dust tightness allows for use in harsh environment applications</li><li>First decentralized drive in the market with IO-Link interface V1.1</li><li>Integrated diagnostic interface (micro USB) for service purposes</li><li>Versions with or without repair switch, with keypad or WLAN module for easy commissioning</li><li>Optionally available with \"Safe Torque Off (STO)\"﻿ with SIL 3 (EN&nbsp;IEC&nbsp;62061/EN IEC&nbsp;61508) and Performance Level e (EN&nbsp;ISO&nbsp;13849-1)</li></ul><p>Technical data and features</p><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><th scope=\"row\">Technical data</th><td style=\"vertical-align:top\"><p>0.37 ... 75 kW</p></td></tr><tr><th scope=\"row\">Connections</th><td style=\"vertical-align:top\"><p>1 AC 120 V</p><p>1 AC 230 V</p><p>3 AC 230 V</p><p>3 AC 400 V</p><p>3 AC 480 V</p><p>3 AC 600 V</p><p>5x digital input</p><p>1x digital output</p><p>2x analog input</p><p>1x analog output</p><p>1x NO/NC relay</p><p>DC bus</p><p>Motor temperature monitoring</p><p>Micro USB</p></td></tr><tr><th scope=\"row\">Communication</th><td style=\"vertical-align:top\"><p>CANopen</p><p>EtherCAT</p><p>EtherNet/IP</p><p>IO-Link</p><p>Modbus RTU</p><p>Modbus TCP</p><p>PROFINET</p></td></tr></tbody></table>"
+  },
+  {
+    "id": 9,
+    "title": "i950 Cabinet Servo Inverter",
+    "link": "i950-cabinet-servo-inverter",
+    "image": "images/i950-cabinet-servo-inverter.webp",
+    "brand": "Lenze",
+    "featured": false,
+    "date": "2025-04-22",
+    "details": "<p><strong>Highlights</strong></p><ul><li>Prepared technology applications, e.g. table positioning, electronic gearbox, winder</li><li>One Cable Technology (OCT)</li><li>Modular scalability for feedback system and fieldbus connections</li><li>Autotuning function for quick and easy controller adjustment</li><li>Integrated safety technology with a wide range of functions, complies with up to SIL 3/PL e Cat. 4</li></ul>"
+  }
+]

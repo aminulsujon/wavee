@@ -3,7 +3,7 @@
 import React, { useState, useMemo } from 'react'
 
 // You can replace this with an import from JSON file
-import productsData from '../../../data/product.json'
+import productsData from '../../../data/productMay.json'
 import Link from 'next/link'
 
 type Product = {
@@ -73,11 +73,11 @@ const ProductPage = () => {
           >
             <div className="relative overflow-hidden rounded-xl">
               
-                <img
+                {/* <img
                   src={product.image}
                   alt={product.title}
                   className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
-                />
+                /> */}
               
             </div>
             <div className="mt-6">

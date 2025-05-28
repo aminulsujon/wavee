@@ -2,7 +2,7 @@
 
 export default function ContactSection() {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <section className="max-w-7xl mx-auto text-gray-950 px-4 sm:px-6 lg:px-8 py-4">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Left Section */}
         <div className="space-y-6">

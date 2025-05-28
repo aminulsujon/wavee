@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "Lenze i510 Model",
+    "link": "",
+    "image": "",
+    "brand": "Lenze-Germany",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 2,
+    "title": "Lenze i550 Model",
+    "link": "",
+    "image": "",
+    "brand": "Lenze-Germany",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 3,
+    "title": "Lenze i500 Module",
+    "link": "",
+    "image": "",
+    "brand": "Lenze-Germany",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 4,
+    "title": "Lenze 9400 Module",
+    "link": "",
+    "image": "",
+    "brand": "Lenze-Germany",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 5,
+    "title": "Lenze 9400 Base",
+    "link": "",
+    "image": "",
+    "brand": "Lenze-Germany",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 6,
+    "title": "Lenze Brake Module",
+    "link": "",
+    "image": "",
+    "brand": "Lenze-Germany",
+    "featured": false,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 7,
+    "title": "Lenze 8400 Module",
+    "link": "",
+    "image": "",
+    "brand": "Lenze-Germany",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 8,
+    "title": "Lenze 9300 Model",
+    "link": "",
+    "image": "",
+    "brand": "Lenze-Germany",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 9,
+    "title": "Lenze 8200 Module",
+    "link": "",
+    "image": "",
+    "brand": "Lenze-Germany",
+    "featured": false,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 10,
+    "title": "Lenze (SMD Model)",
+    "link": "",
+    "image": "",
+    "brand": "Lenze-Germany",
+    "featured": false,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 11,
+    "title": "Lenze (SMV Model)",
+    "link": "",
+    "image": "",
+    "brand": "Lenze-Germany",
+    "featured": false,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 12,
+    "title": "Lenze PLC Card",
+    "link": "",
+    "image": "",
+    "brand": "Lenze-Germany",
+    "featured": false,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 13,
+    "title": "INOVANCE (MD 290 Model)",
+    "link": "",
+    "image": "",
+    "brand": "Inovance-China",
+    "featured": false,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 14,
+    "title": "INOVANCE (MD 310 Model)",
+    "link": "",
+    "image": "",
+    "brand": "Inovance-China",
+    "featured": false,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 15,
+    "title": "INOVANCE (MD 380 Model)",
+    "link": "",
+    "image": "",
+    "brand": "Inovance-China",
+    "featured": false,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 16,
+    "title": "INOVANCE (MD 500 Model)",
+    "link": "",
+    "image": "",
+    "brand": "Inovance-China",
+    "featured": false,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 17,
+    "title": "INOVANCE  (MD 200 Model)",
+    "link": "",
+    "image": "",
+    "brand": "Inovance-China",
+    "featured": false,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 18,
+    "title": "Tamagawa Resolver",
+    "link": "",
+    "image": "",
+    "brand": "Tamagawa-Japan",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 19,
+    "title": "Erhardt Leimer(E+L )Product",
+    "link": "",
+    "image": "",
+    "brand": "E+L Germany",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 20,
+    "title": "VIPA product",
+    "link": "",
+    "image": "",
+    "brand": "VIPA-Germany",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 21,
+    "title": "Load Cell (Gefran)",
+    "link": "",
+    "image": "",
+    "brand": "Gefran-Italy",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 22,
+    "title": "Posital Fraba Encoder",
+    "link": "",
+    "image": "",
+    "brand": "Fraba-Germany",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 23,
+    "title": "ELIAR",
+    "link": "",
+    "image": "",
+    "brand": "Turkey",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 24,
+    "title": "CONTELEC",
+    "link": "",
+    "image": "",
+    "brand": "Contelec-Switzerland",
+    "featured": true,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 25,
+    "title": "Fong’s Product",
+    "link": "",
+    "image": "",
+    "brand": "",
+    "featured": false,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 26,
+    "title": "Baumer Encoder",
+    "link": "",
+    "image": "",
+    "brand": "",
+    "featured": false,
+    "date": "",
+    "details": ""
+  },
+  {
+    "id": 27,
+    "title": "Burner Controller",
+    "link": "",
+    "image": "",
+    "brand": "",
+    "featured": false,
+    "date": "",
+    "details": ""
+  }
+]

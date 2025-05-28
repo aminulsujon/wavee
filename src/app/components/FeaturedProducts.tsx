@@ -1,6 +1,6 @@
 'use client'
 import React, { useRef } from 'react'
-import productsData from '../../../data/product.json'
+import productsData from '../../../data/productMay.json'
 
 const FeaturedProducts = () => {
   const sliderRef = useRef<HTMLDivElement | null>(null)
@@ -46,11 +46,11 @@ const FeaturedProducts = () => {
               className="flex-shrink-0 sm:w-80 group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-600/10"
             >
               <div className="relative overflow-hidden rounded-xl">
-                  <img
+                  {/* <img
                     src={product.image}
                     alt={product.title}
                     className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
-                  />
+                  /> */}
               </div>
               <div className="mt-6">
                 <h3 className="text-xl font-semibold text-[#004da0]">

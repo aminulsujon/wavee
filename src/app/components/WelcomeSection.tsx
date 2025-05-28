@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function WelcomeSection() {
   return (
-    <section id="features" className="py-2 text-black">
-      <h2 className="text-3x border-t py-4 border-gray-400 md:text-4xl font-bold text-center">
+    <section id="features" className="border-t py-4 text-black">
+      <h2 className="text-3x py-2 md:text-4xl font-bold text-center">
         <img
           src="/images/wave-engineering-logo.png"
           alt="Wave Engineering Logo"
@@ -12,7 +12,7 @@ export default function WelcomeSection() {
           height={64}
           className="inline-block w-16 h-auto"
         />
-        <span className="ml-4 align-middle block mt-2">WELCOME TO WAVE ENGINEERING</span>
+        <span className="ml-4 align-middle block mt-4">WELCOME TO WAVE ENGINEERING</span>
       </h2>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 text-xl leading-relaxed">

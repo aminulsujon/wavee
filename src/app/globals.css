@@ -40,6 +40,12 @@ body {
   @apply absolute md:relative bottom-0 bg-white/60 w-full p-2 md:p-6 text-center text-black;
 }
 .boxes{
-  @apply grid gap-6 sm:grid-cols-2 lg:grid-cols-3;
+  @apply grid gap-2 grid-cols-2 md:grid-cols-4;
+}
+.platforms{
+  @apply md:flex justify-center sm:justify-start space-x-6 space-y-4;
+}
+.platforms a{
+  @apply flex items-center space-x-2 transition duration-300 hover:scale-110;
 }
 
