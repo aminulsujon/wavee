@@ -30,25 +30,25 @@ export default function Home() {
               "@type": "Article",
               "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://yourdomain.com/articles/lenze-i510-working"
+                "@id": "https://www.waveengineeringbd.com/lenze-i510"
               },
               "headline": "How the Lenze i510 Works",
               "description": "A technical breakdown of the Lenze i510 inverter, its working principle, control features, and model list.",
-              "image": "https://yourdomain.com/images/lenze-i510.jpg", // Change to actual image URL
+              "image": "https://www.waveengineeringbd.com/images/lenze-i510/LENZE-INVERTER-BANGLADESH.png",
               "author": {
                 "@type": "Organization",
                 "name": "Wave Engineering",
-                "url": "https://yourdomain.com"
+                "url": "https://www.waveengineeringbd.com/"
               },
               "publisher": {
                 "@type": "Organization",
                 "name": "Wave Engineering",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://yourdomain.com/logo.png"
+                  "url": "https://www.waveengineeringbd.com/images/wave-engineering-logo-2000.png"
                 }
               },
-              "datePublished": "2024-06-01", // Adjust accordingly
+              "datePublished": "2025-06-01",
               "dateModified": "2025-06-01"
             })
           }}
