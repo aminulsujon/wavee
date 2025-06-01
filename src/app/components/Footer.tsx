@@ -13,6 +13,9 @@ export default function Footer() {
 
   return (
     <footer className="pb-20">
+      <div className="bg-[#ddd] py-4 border-b flex flex-wrap justify-center gap-x-6">
+          <a className="border-2 border-sky-900 rounded px-2 py-1 bg-sky-50" href="/lenze-i510">How Lenze i510 Works?</a>
+      </div>
       {/* Navigation */}
       <div className="bg-[#004da0] py-4 mb-10 border-b flex flex-wrap justify-center gap-x-6">
         {[

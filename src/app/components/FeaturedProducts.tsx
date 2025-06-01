@@ -13,7 +13,7 @@ const FeaturedProducts = () => {
       sliderRef.current.scrollLeft += direction * scrollAmount
     }
   }
-
+https://www.waveengineeringbd.com/products
   return (
     <section className="py-4">
       <div className="text-center mb-12">
