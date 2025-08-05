@@ -21,7 +21,8 @@ const Header = () => {
                 <img 
                 src="/images/wave-engineering-logo.png" 
                 alt="Wave Engineering Logo" 
-                className="h-10"
+                width={63}
+                height={40}
                 />
                 <span className="md:text-3xl font-bold text-wave waveEngg">WAVE</span>
                 <span className="md:text-3xl font-bold text-engg waveEngg">ENGINEERING</span>

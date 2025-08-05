@@ -45,13 +45,14 @@ export default function Footer() {
               <img
                 src="/images/wave-engineering-logo.png"
                 alt="Wave Engineering Logo"
+                loading="lazy"
                 width={96}
                 height={48}
               />
             </div>
 
             {/* Description */}
-            <p className="text-sm md:text-base text-gray-400">
+            <p className="text-sm md:text-base">
               We are an Authorized System Integrator, Channel Partner, and Support/Repair Provider for Lenze Products in Bangladesh.
             </p>
 
@@ -107,7 +108,7 @@ export default function Footer() {
             </div>
 
             {/* Copyright */}
-            <span className="block text-gray-400 text-xs md:text-sm mt-4">
+            <span className="block text-xs md:text-sm mt-4">
               &copy; {year} Wave Engineering. All Rights Reserved.
             </span>
           </div>

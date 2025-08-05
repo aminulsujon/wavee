@@ -13,7 +13,7 @@ const FeaturedProducts = () => {
       sliderRef.current.scrollLeft += direction * scrollAmount
     }
   }
-https://www.waveengineeringbd.com/products
+
   return (
     <section className="py-4">
       <div className="text-center mb-12">
@@ -27,13 +27,13 @@ https://www.waveengineeringbd.com/products
         {/* Navigation Buttons */}
         <button
           onClick={() => scrollSlider(-1)}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white border p-2 rounded-full shadow-md hover:bg-gray-100"
+          className="absolute left-5 top-1/2 transform -translate-y-1/2 z-10 bg-white border p-2 px-4 pl-3 rounded-full shadow-md hover:bg-gray-100"
         >
           ◀
         </button>
         <button
           onClick={() => scrollSlider(1)}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white border p-2 rounded-full shadow-md hover:bg-gray-100"
+          className="absolute right-5 top-1/2 transform -translate-y-1/2 z-10 bg-white border p-2 px-4 pr-3 rounded-full shadow-md hover:bg-gray-100"
         >
           ▶
         </button>
@@ -46,15 +46,17 @@ https://www.waveengineeringbd.com/products
               className="flex-shrink-0 sm:w-80 group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 bg-opacity-50 shadow-2xl shadow-gray-600/10"
             >
               <div className="relative overflow-hidden rounded-xl">
-                  {/* <img
+                  <a href={product.link} title={product.title}>
+                    <img
                     src={product.image}
                     alt={product.title}
-                    className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
-                  /> */}
+                    className="object-cover object-top transition duration-500 group-hover:scale-105"
+                  />
+                  </a>
               </div>
               <div className="mt-6">
                 <h3 className="text-xl font-semibold text-[#004da0]">
-                    {product.title}
+                    <a href={product.link} title={product.title}>{product.title}</a>
                     <span className="block mt-2 text-sm text-bold text-gray-900">
                       {product.brand}
                     </span>

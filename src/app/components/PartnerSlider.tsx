@@ -33,7 +33,7 @@ export default function PartnerSlider() {
     <div className="overflow-hidden">
       <div ref={trackRef} className="flex gap-6 justify-around">
         {logos.map((src, index) => (
-          <img key={index} src={src} alt={`Logo ${index}`} className="h-16 w-auto" />
+          <img key={index} src={src} alt={`Logo ${index}`} className="h-16 w-auto" loading="lazy"/>
         ))}
       </div>
     </div>

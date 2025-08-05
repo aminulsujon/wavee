@@ -11,10 +11,11 @@ export default function FeaturesSection() {
         <div className="features">
           
           {/* Product Card */}
-          <div className="items">
+          <div className="items shadow-pop-tr">
             <img 
               src="/images/Productivity_Machnes.jpg" 
               alt="Machine Motion Productivity" 
+              loading="lazy"
               className="w-full h-56 object-cover transition duration-300 ease-in-out hover:brightness-90"
             />
             <div>
@@ -24,8 +25,9 @@ export default function FeaturesSection() {
           </div>
 
           {/* Industry Expertise */}
-          <div className="items">
+          <div className="items shadow-pop-tr">
             <img 
+              loading="lazy"
               src="/images/Productivitz__Machine_Motion.jpg" 
               alt="Industry Expertise Conversation" 
               className="w-full h-56 object-cover transition duration-300 ease-in-out hover:brightness-90"
@@ -37,8 +39,9 @@ export default function FeaturesSection() {
           </div>
 
           {/* Solutions */}
-          <div className="items">
+          <div className="items shadow-pop-tr">
             <img 
+              loading="lazy"
               src="/images/Productivity_People_in_Production.jpg" 
               alt="Complete Engineering Solutions" 
               className="w-full h-56 object-cover transition duration-300 ease-in-out hover:brightness-90"
@@ -50,8 +53,9 @@ export default function FeaturesSection() {
           </div>
 
           {/* Service */}
-          <div className="items">
+          <div className="items shadow-pop-tr">
             <img 
+              loading="lazy"
               src="/images/Partner_In_Conversation.jpg" 
               alt="Service and Support" 
               className="w-full h-56 object-cover transition duration-300 ease-in-out hover:brightness-90"

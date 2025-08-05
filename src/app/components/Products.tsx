@@ -73,12 +73,11 @@ const ProductPage = () => {
           >
             <div className="relative overflow-hidden rounded-xl">
               
-                {/* <img
+                <img
                   src={product.image}
-                  alt={product.title}
-                  className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
-                /> */}
-              
+                  alt="wave engineering"
+                  className="object-cover object-top transition duration-500 group-hover:scale-105"
+                />
             </div>
             <div className="mt-6">
               <h3 className="text-xl font-semibold">
@@ -95,7 +94,7 @@ const ProductPage = () => {
       </div>
 
       {filteredProducts.length === 0 && (
-        <p className="text-center text-gray-500 mt-10">No products found.</p>
+        <p className="text-center text-gray-500 mt-10">No products to show. Please call us for any informations about industrial automations.</p>
       )}
     </section>
   )

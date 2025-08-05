@@ -11,6 +11,7 @@ export default function ContactSection() {
             className="mb-4 lg:mb-0"
             src="/images/Lenze-Germanu-Logo-official.webp"
             alt="Lenze Logo"
+            loading="lazy"
           />
           <h1 className="heading">
             <span className="text-[#004da0]">Lenze Products Bangladesh</span>

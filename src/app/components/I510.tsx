@@ -6,7 +6,7 @@ export default function LenzeInfo() {
       <div className="p-4 space-y-10">
         {/* Overview */}
       <section>
-        <h1 className="text-3xl font-bold mb-2">🔍 How the Lenze i510 Works</h1>
+        <h1 className="text-3xl font-bold mb-2">How the Lenze i510 Works?</h1>
         <p className="text-gray-700">
           The Lenze i510 is a scalable, compact, and modular AC frequency inverter designed for
           simple to complex motor control applications. It adjusts the frequency and voltage
@@ -17,7 +17,7 @@ export default function LenzeInfo() {
 
       {/* Working Principle */}
       <section>
-        <h2 className="text-2xl font-semibold mb-2">💡 Working Principle</h2>
+        <h2 className="text-2xl font-semibold mb-2">Lenze i510 Working Principle</h2>
         <ul className="list-disc list-inside text-gray-700 space-y-1">
           <li><strong>Power Input:</strong> Accepts single-phase or three-phase AC input.</li>
           <li><strong>Rectification:</strong> Converts incoming AC to DC internally.</li>
@@ -29,7 +29,7 @@ export default function LenzeInfo() {
 
       {/* Control Features */}
       <section>
-        <h2 className="text-2xl font-semibold mb-4">⚙️ Control Features</h2>
+        <h2 className="text-2xl font-semibold mb-4">Lenze i510 Control Features</h2>
         <div className="overflow-x-auto">
           <table className="min-w-full text-sm text-left text-gray-700 border border-gray-300">
             <thead className="bg-gray-100 font-medium border-b border-gray-300">
@@ -60,7 +60,7 @@ export default function LenzeInfo() {
 
       {/* Product Model List */}
       <section>
-        <h2 className="text-2xl font-semibold mb-4">📦 Lenze i510 Product Model List</h2>
+        <h3 className="text-2xl font-semibold mb-4">Lenze i510 Product Model List</h3>
         <div className="overflow-x-auto text-sm">
           <table className="min-w-full border border-gray-300 text-left">
             <thead className="bg-gray-100 border-b border-gray-300">
@@ -116,9 +116,9 @@ export default function LenzeInfo() {
         </div>
       </section>
 
-      {/* Local Partner Info */}
+      {/* Info */}
       <section>
-        <h2 className="text-2xl font-semibold mb-2">🌍 Lenze in Bangladesh</h2>
+        <h4 className="text-2xl font-semibold mb-2">Lenze in Bangladesh</h4>
         <div className="text-gray-700">
           <p><strong>Wave Engineering</strong></p>
           <p>📍 Authorized System Integrator & Channel Partner of Lenze</p>

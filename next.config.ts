@@ -25,7 +25,19 @@ const nextConfig = {
  
   // Optional: Change the output directory `out` -> `dist`
   // distDir: 'dist',
-  
+  // async headers() {
+  //   return [
+  //     {
+  //       source: '/(.*)', // Or restrict to /images/(.*), /fonts/(.*), etc.
+  //       headers: [
+  //         {
+  //           key: 'Cache-Control',
+  //           value: 'public, max-age=31536000, immutable', // 1 year cache
+  //         },
+  //       ],
+  //     },
+  //   ];
+  // },
 }
  
 module.exports = nextConfig
