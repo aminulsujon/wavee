@@ -127,6 +127,43 @@ export default function LenzeInfo() {
           <p className="mt-2">✅ Contact for installation, commissioning, and troubleshooting support for all Lenze drives and automation solutions in Bangladesh.</p>
         </div>
       </section>
+      
+      <section className="max-w-4xl mx-auto p-4">
+        <div className="bg-white shadow-md rounded-2xl p-6">
+          {/* Video Embed */}
+          <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-xl">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/2M17-9SQ7SI?si=ab9DLPSLG3dZefX4"
+              title="i510 Cabinet Frequency Inverter: Compact & Powerful!"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+
+          {/* Video Info */}
+          <div className="mt-6">
+            <h2 className="text-2xl font-semibold text-gray-800">
+              i510 Cabinet Frequency Inverter: Compact & Powerful!, Wave Engineering BD
+            </h2>
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mt-4 gap-2">
+              <p className="text-gray-600 text-lg">
+                Channel: <span className="font-medium">Wave Engineering</span>
+              </p>
+              <a
+                href="https://www.youtube.com/channel/UCiWyD0zCwrPVXem3WumPYMg?sub_confirmation=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-red-600 hover:bg-red-700 text-white text-sm font-semibold py-2 px-4 rounded-lg transition-colors"
+              >
+                Subscribe
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       </div>
     </div>
   );

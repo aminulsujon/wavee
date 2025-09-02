@@ -4,120 +4,132 @@
     "title": "Lenze i510",
     "link": "/lenze-i510/",
     "image": "/images/lenze-i510/lenze-i510-cabinet-Frequeny-inverter-bangladesh-3x.webp",
-    "brand": "Lenze-Germany",
+    "brand": "Lenze, Germany",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": "cDUDMJ6lKe"
   },
   {
     "id": 2,
     "title": "Lenze i550",
     "link": "",
     "image": "/images/favicon-32x32.png",
-    "brand": "Lenze-Germany",
+    "brand": "Lenze, Germany",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 3,
     "title": "Lenze i500",
     "link": "",
     "image": "/images/favicon-32x32.png",
-    "brand": "Lenze-Germany",
+    "brand": "Lenze, Germany",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 4,
     "title": "Lenze 9400",
     "link": "",
     "image": "/images/favicon-32x32.png",
-    "brand": "Lenze-Germany",
+    "brand": "Lenze, Germany",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 5,
     "title": "Lenze 9400 Base",
     "link": "",
     "image": "/images/favicon-32x32.png",
-    "brand": "Lenze-Germany",
+    "brand": "Lenze, Germany",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 6,
     "title": "Lenze Brake",
     "link": "",
     "image": "/images/favicon-32x32.png",
-    "brand": "Lenze-Germany",
+    "brand": "Lenze, Germany",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 7,
     "title": "Lenze 8400",
     "link": "",
     "image": "/images/favicon-32x32.png",
-    "brand": "Lenze-Germany",
+    "brand": "Lenze, Germany",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 8,
     "title": "Lenze 9300",
-    "link": "",
-    "image": "/images/favicon-32x32.png",
-    "brand": "Lenze-Germany",
+    "link": "lenze-9300/",
+    "image": "/images/lenze-9300/9300-servo-inverters-lenze-bangladesh.webp",
+    "brand": "Lenze, Germany",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 9,
     "title": "Lenze 8200",
     "link": "",
     "image": "/images/favicon-32x32.png",
-    "brand": "Lenze-Germany",
+    "brand": "Lenze, Germany",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 10,
     "title": "Lenze (SMD)",
     "link": "",
     "image": "/images/favicon-32x32.png",
-    "brand": "Lenze-Germany",
+    "brand": "Lenze, Germany",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 11,
     "title": "Lenze (SMV)",
     "link": "",
     "image": "/images/favicon-32x32.png",
-    "brand": "Lenze-Germany",
+    "brand": "Lenze, Germany",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 12,
     "title": "Lenze PLC Card",
     "link": "",
     "image": "/images/favicon-32x32.png",
-    "brand": "Lenze-Germany",
+    "brand": "Lenze, Germany",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 13,
@@ -127,7 +139,8 @@
     "brand": "Inovance-China",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 14,
@@ -137,7 +150,8 @@
     "brand": "Inovance-China",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 15,
@@ -147,7 +161,8 @@
     "brand": "Inovance-China",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 16,
@@ -157,7 +172,8 @@
     "brand": "Inovance-China",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 17,
@@ -167,7 +183,8 @@
     "brand": "Inovance-China",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 18,
@@ -177,7 +194,8 @@
     "brand": "Tamagawa-Japan",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 19,
@@ -187,7 +205,8 @@
     "brand": "E+L Germany",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 20,
@@ -197,7 +216,8 @@
     "brand": "VIPA-Germany",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 21,
@@ -207,7 +227,8 @@
     "brand": "Gefran-Italy",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 22,
@@ -217,7 +238,8 @@
     "brand": "Fraba-Germany",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 23,
@@ -227,7 +249,8 @@
     "brand": "Turkey",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 24,
@@ -237,7 +260,8 @@
     "brand": "Contelec-Switzerland",
     "featured": true,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 25,
@@ -247,7 +271,8 @@
     "brand": "",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 26,
@@ -257,7 +282,8 @@
     "brand": "",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   },
   {
     "id": 27,
@@ -267,6 +293,7 @@
     "brand": "",
     "featured": false,
     "date": "",
-    "details": ""
+    "details": "",
+    "video": ""
   }
 ]
